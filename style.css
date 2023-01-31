@@ -1,0 +1,191 @@
+.content{
+    background-image: url("bg_image.jpeg");
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    background-image: url(img_back_best.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    /* background-color: red; */
+    height: 100vh;
+   
+}
+.research{
+    /* padding: 19px;
+    margin-left: 78px; */
+    background-color: bisque;
+    height: 300px;
+}
+.main_research{
+    padding: 19px;
+    margin-left: 78px;
+}
+.content_reasearch{
+    padding: 19px;
+    margin-left: 78px;
+}
+.events{
+    background-color: aqua;
+    /* padding: 19px;
+    margin-left: 78px; */
+    height: 300px;
+}
+.magazine{
+    background-color: blue;
+    /* padding: 19px;
+    margin-left: 78px; */
+    height: 300px;
+}
+.contacts{
+    padding-left: 100px;
+    padding-right: 100px;
+   margin-top: 100px;
+   margin-bottom: 0px;
+
+   background-color: rgb(164, 130, 122);
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.social{
+    cursor: pointer;
+    padding: 22px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-top: -9px;
+}
+.first_con{
+      width: 150px;
+      margin-top: 50px;
+}
+.second_con{
+    margin-top: 15px;
+    width: 230px;
+}
+.third_con{
+    cursor: pointer;
+    margin-top: 64px;
+    width: 150px;
+}
+.twitter{
+    width: 22px;
+    
+}
+.insta{
+  width: 22px;
+}
+.linkedin{
+width: 22px;
+}
+.logo{
+    width: 130px;
+}
+.guwahati
+{
+ font-size: 22px;
+}
+.welcome
+{    padding: 70px;
+    margin-left: 711px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: red;
+}
+.physics{
+    margin-left: 765px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(42, 165, 99);
+    padding: 21px;
+    margin-top: 0px;
+}
+@media only screen and (max-width: 1000px) {
+    .contacts{
+       padding-left: 0px;
+       padding-right: 0px;
+    }
+    .first_con{
+        width: 150px;
+        margin-top: 50px;
+  }
+  .second_con{
+      margin-top: 15px;
+      width: 230px;
+  }
+  .third_con{
+      cursor: pointer;
+      margin-top: 64px;
+      width: 150px;
+  }
+  }
+  @media only screen and (max-width: 600px) {
+    
+    .first_con{
+        width: 150px;
+        margin-top: 0px;
+        
+  }
+  .second_con{
+      margin-top: 0px;
+      width: 230px;
+      margin-left: 10px;
+  }
+  .third_con{
+      cursor: pointer;
+      margin-top: 0px;
+      width: 150px;
+      margin-left: 10px;
+  }
+  .twitter{
+    width: 22px;
+    
+}
+.insta{
+  width: 22px;
+}
+.linkedin{
+width: 22px;
+}
+.logo{
+    display: none;
+}
+.guwahati
+{
+ font-size: 20px;
+}
+.contacts{
+    
+padding: 0px;
+margin: 0px;
+   background-color: rgb(164, 130, 122);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.connect_us{
+    display: none;
+}
+.social{
+    cursor: pointer;
+    padding: 0px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+  }
+  @media only screen and (max-width: 250px) {
+    .contacts{
+        font-size: 10px;
+    }
+  }
